@@ -70,26 +70,26 @@ the order of operations when coding
 x = 10
 
 # Increase x value by 15 using assignment operators
-      x = x + 15 
-      x += 15       
+  x = x + 15 
+  x += 15       
 
 # Divide the x value by 5 using assignment operators
-         x = x / 5   
-         x /= 5
+x = x / 5   
+x /= 5
 
 # Multiply the x value by 10 using assignment operator
-     x = x * 10  
-     x *= 10
+ x = x * 10  
+ x *= 10
 
 # Get module of x on 3 using assignment operators
-     x = x % 3  
-     x %= 3
+ x = x % 3  
+ x %= 3
 
 # Using python print the module of 11 to 4
  print( 11 % 4 )
 
 # Print the exponent of 2,3
- print( 2 ** 3)
+print( 2 ** 3)
 
 # Divide 11 by 3 using python division
  11 / 3
@@ -104,34 +104,32 @@ x = int (x)
 # Check if 10 is bigger than 15 or not
   
 # If 10 is not bigger than15 print x is smaller than 15
-
-"""
- x = 10   
+x = 10   
  if 10 > 15:
     print (10 is bigger than 15 )
-else:
+ else:
     print("x is smaller than 15") 
-"""
+
 
 ## In which cases we will use all?
-'''If we need all the conditions to be true '''
+If we need all the conditions to be true 
 
 # What is the differences between all , and
-'''all ==> (When there are more than two conditions, they must be true.)
-   and ==> ( When there are two conditions, they must be true.)'''
+all ==> (When there are more than two conditions, they must be true.)
+  and ==> ( When there are two conditions, they must be true.)
 
 
 # What is the differences between any , or
-  ''' any ==> (When there are more than two conditions, at least one of them must be true.)
+ any ==> (When there are more than two conditions, at least one of them must be true.)
       or ==> (When there are two conditions, at least one of them must be true.)'''
 
 # If we need all the conditions to be true we will use ….
 ''' all '''
 
 #What is the differences between if , elif
-''' if ==>  ( It can be used once in a conditional sentence.and it finds one condition that is True, it stops and doesn't evaluate the rest  )
-    elif ==>( It can be used more than once in a conditional sentence.when the conditions not pass and true.mutually exclusive conditions . )
-'''
+ if ==>  ( It can be used once in a conditional sentence.and it finds one condition that is True, it stops and doesn't evaluate the rest  )
+elif ==>( It can be used more than once in a conditional sentence.when the conditions not pass and true.mutually exclusive conditions . )
+
 
 # What is the differences between elif else
 ''' elif ==> (It can be used more than once in a conditional sentence.when the conditions not pass and true.mutually exclusive conditions . )
